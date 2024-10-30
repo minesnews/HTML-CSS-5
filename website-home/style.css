@@ -1,0 +1,237 @@
+/* Общий код */
+
+@import url(https://db.onlinewebfonts.com/c/000833a3a58fb083c44b9de42c2ff0a2?family=Gilroy-SemiBold);
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    /*  */
+    scroll-behavior: smooth;
+    /*  */
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
+/*  */
+
+h1,
+h2,
+p,
+a,
+button {
+    color: rgb(0, 0, 0);
+    font-family: "Gilroy-Bold";
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1319px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 40px 0;
+    margin-bottom: 84px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 533px;
+}
+
+.navigation a {
+    font-family: "Gilroy-Medium";
+    font-size: 14px;
+}
+
+.item {
+    font-family: "Gilroy-SemiBold";
+    color: #f25822;
+}
+
+.future {
+    margin-left: -30px;
+}
+
+.mainContent {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 162px;
+}
+
+.mainContent__leftSide {
+    max-width: 522px;
+}
+
+.mainContent__leftSide h1 {
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 17px;
+}
+
+.mainContent__leftSide p {
+    font-family: 'Gilroy-Medium';
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+    margin-bottom: 37px;
+    max-width: 466px;
+}
+
+.mainContent__leftSide-btnList {
+    display: flex;
+    gap: 72px;
+    align-items: center;
+}
+
+.mainContent__leftSide-btnList button {
+    padding: 15px 35px;
+    border-radius: 50px;
+    background: rgb(242, 88, 34);
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.tbtn {
+    font-size: 15px;
+    line-height: 18px;
+    color: #AAAAAA;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 97px;
+}
+
+.cardList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 61px;
+}
+
+.card {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: start;
+    margin-bottom: 100px;
+}
+
+.card_shadow {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.card h3 {
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.card p {
+    font-family: 'Gilroy-Regular';
+    font-size: 15px;
+    color: 66666;
+    line-height: 150%;
+}
+
+.card a {
+    font-family: 'Gilroy-Bold';
+    font-size: 11px;
+    line-height: 150%;
+}
+
+.cardBackground {
+    background: #FAFAFA;
+    padding: 100px;
+}
+
+.text2 {}
+
+.text2 h1 {
+    text-align: center;
+    font-family: 'Gilroy-Bold';
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+
+.text2 p {
+    text-align: center;
+    color: #666666;
+    font-family: 'Gilroy-Regular';
+    line-height: 24px;
+    margin-bottom: 48px;
+}
+
+.cardList2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 61px;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+
+.cardList2 img {
+    margin-bottom: 25px;
+}
+
+.cardList2 h2 {
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.cardList2 p {
+    font-family: 'Gilroy-Regular';
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #AAAAAA;
+    margin-bottom: 39px;
+}
+
+.cardList2 button {
+    padding: 15px 35px;
+    border-radius: 50px;
+    background: rgb(242, 88, 34);
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-left: 122px;
+    margin-bottom: 50px;
+}
+
+.card_test {
+    background: #FFFFFF;
+}
+
+.card_test2 {
+    background: #FFFFFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
